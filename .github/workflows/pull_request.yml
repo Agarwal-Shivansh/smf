@@ -47,6 +47,12 @@ jobs:
           commit-message: "Actions: Updated with changes from CI"
       - name: Run AIAB
         run: |
+          echo "CPU_FAMILY:"
+          lscpu | grep 'CPU family:'
+          echo "CPU_Model:"
+          lscpu | grep 'Model:'
+          echo "Arch is:"
+          lscpu | grep 'Architecture:'        
           sudo apt-get update
           sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
           sudo chmod a+x /usr/local/bin/yq
