@@ -52,7 +52,9 @@ jobs:
           echo "CPU_Model:"
           lscpu | grep 'Model:'
           echo "Arch is:"
-          lscpu | grep 'Architecture:'        
+          lscpu | grep 'Architecture:' 
+          echo "yq version is:"
+          yq --version
           sudo apt-get update
           sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
           sudo chmod a+x /usr/local/bin/yq
