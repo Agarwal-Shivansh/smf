@@ -9,7 +9,7 @@ SPDX-License-Identifier: Apache-2.0
 
 # SMF
 
-SMF is a session management function in 5G architecture and acts as the anchor point to communicate with UPF (User Plane Function).  SD-Core SMF supports interaction with multiple UPFs. SMF supports handling dynamic slice configuration, removal & modification .
+SMF is a session management function in 5G architecture and acts as the anchor point to communicate with UPF (User Plane Function).  SD-Core SMF supports interaction with multiple UPFs. SMF supports handling dynamic slice configuration, removal & modification.
 
 
 ## SMF Block diagram
