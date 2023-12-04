@@ -2,7 +2,7 @@
 # Copyright 2022 Intel Corporation
 name: Pull Request
 
-on: [pull_request, push]
+on: [pull_request]
 
 concurrency:
   group: ${{ github.event.pull_request.number }}
